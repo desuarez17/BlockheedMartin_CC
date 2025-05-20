@@ -3,3 +3,5 @@
 #Deal of the Day: 10% off all tool deals!
 
 #Im a Catalog
+
+[background:blue][text:black] IM TEST TEXT
