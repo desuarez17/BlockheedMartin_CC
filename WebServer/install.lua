@@ -2,10 +2,7 @@ print("Installing Webserver Program...")
 
 print("Deleting old files...")
 
-shell.run("delete WebServer.lua")
-shell.run("delete startup.lua")
-shell.run("BlockheedMartinNet.txt")
-shell.run("delete install.lua")
+shell.run("delete /*")
 
 print("Downloading new files...")
 
