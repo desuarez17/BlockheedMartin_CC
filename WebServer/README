@@ -1,0 +1,9 @@
+# CC-Tweaked-Amazon-OS/BlockheedSite
+
+A lightweight operating system and web browser built for [CC:Tweaked](https://tweaked.cc/), designed to mimic a modern online experience inside Minecraft.
+
+---
+## Install the Webserver
+```lua
+wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/install.lua install.lua
+```
