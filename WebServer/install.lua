@@ -9,7 +9,7 @@ shell.run("delete install.lua")
 
 print("Downloading new files...")
 
-shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/WebServer.lua WebServer.lua")
+shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/webServer.lua webServer.lua")
 shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/startup.lua startup.lua")
 shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/BlockheedMartinNet.txt BlockheedMartinNet.txt")
 shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/main/WebServer/install.lua install.lua")
