@@ -1,5 +1,5 @@
 local PROTOCOL = "EENet"
-local WEBSITE_NAME = "Demo"
+local WEBSITE_NAME = "BlockheedMartinNet"
 local WEBSITE_FILE = WEBSITE_NAME .. ".txt" -- Default index file
 
 -- Open modem and host the protocol
