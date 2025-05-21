@@ -3,11 +3,9 @@
 #Deal of the Day: 10% off all tool deals!
 
 #[text:blue]Important Links:
-[link:"Catalog","Catalog"]
-[link:"Service","Service Request"]
-[link:"Mission","Our Mission"]  
-[link:"About","About Us"]  
+[link:"BlockheedMartinNet/Catalog","Catalog"]
+[link:"BlockheedMartinNet/Service","Service Request"]
+[link:"BlockheedMartinNet/Mission","Our Mission"]  
+[link:"BlockheedMartinNet/About","About Us"]  
 
-##[text:blue] Your Mission Is Ours!™
-
-[background:blue][text:black] IM TEST TEXT
+##[text:blue] Your Mission Is Ours!

@@ -1,5 +1,8 @@
 ##[text:blue]Welcome To BlockheedMartinNet!
-
+##==================
 #Deal of the Day: 10% off all tool deals!
+[link:"BlockheedMartinNet","Back to home page"]  
 
-#Im a Mission 
+#We are BlockheedMartin, dedicated to providing every player with only the highest quality gear. Should you find yourself in need checkout [link:"BlockheedMartinNet/Catalog","Catalog"] or [link:"BlockheedMartinNet/Service","Service Request"]. 
+
+##[text:blue] Your Mission Is Ours!
