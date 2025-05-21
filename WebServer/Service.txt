@@ -8,12 +8,12 @@ https://docs.google.com/forms/d/e/1FAIpQLSfvC9_EiykIOj0vtMDjafAkHcLTdifCXLa7EvAi
 ^It's also linked on the bulletin Board
 
 #Intrested in MarketCity?
-[link:"404","Join Our Community Today!"] 
+[link:"BlockheedMartinNet/404","Join Our Community Today!"] 
 
 #Need a building or crate structure?
-[link:"404","Building Request"]  
+[link:"BlockheedMartinNet/404","Building Request"]  
 
 #Need computer support?
-[link:"404","Computer Ticket"]  
+[link:"BlockheedMartinNet/404","Computer Ticket"]  
 
 ##[text:blue] Your Mission Is Ours!
