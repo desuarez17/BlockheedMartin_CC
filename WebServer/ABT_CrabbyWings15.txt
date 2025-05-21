@@ -1,0 +1,12 @@
+##[text:blue]Welcome To BlockheedMartinNet!
+##==================
+#Deal of the Day: 10% off all tool deals!
+[link:"BlockheedMartinNet","Back to home page"]  
+
+[background:blue][text:black]Title: Cheif Executive Officer
+
+Crabbywings15 is the guiding light to BlockheedMartin. He’s responsible for providing community outreach and making sure BlockheedMartin is at the forefront of any server project. He is primarily in charge of providing BlockheedMartin's renowned services that provide players with the highest quality gear.
+
+[text:purple]discord: @Crabbywings_15
+
+##[text:blue] Your Mission Is Ours!

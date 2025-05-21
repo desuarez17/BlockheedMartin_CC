@@ -1,0 +1,9 @@
+##[text:blue]Welcome To BlockheedMartinNet!
+##==================
+#Deal of the Day: 10% off all tool deals!
+[link:"BlockheedMartinNet","Back to home page"]  
+
+##[text:red] 404 page not found
+##Sorry this site is down currently @desuarez17 for support
+
+##[text:blue] Your Mission Is Ours!
