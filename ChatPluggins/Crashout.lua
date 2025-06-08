@@ -5,8 +5,8 @@ target = "dogboy331"
 
 
 local deliverylist = {
-    "amfs987",
     "desuarez",
+    "amfs987",
     "crabbywings_15",
     "OrbitalObject",
 }
@@ -39,9 +39,9 @@ if not contains(deliverylist, target) then
     table.insert(deliverylist,target)
 end
 
-for i, v in ipairs(deliverylist) do
-    print("Sending message to " .. v)
-    chatBox.sendMessageToPlayer("Mod Aproval board is now online. Please report any botboys to the board.", v, "Mod Aproval board")
+for i, player in ipairs(deliverylist) do
+    print("Sending message to " .. player)
+    chatBox.sendMessageToPlayer("Mod Aproval board is now online. Please report any botboys to the board.", player, "Mod Aproval board")
 end
 local msgcopy = msglist
 
