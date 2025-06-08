@@ -1,14 +1,14 @@
 local chatBox = peripheral.find("chatBox")
--- chatBox.sendMessage(":heart: §1.Gay.§r"..os.date("%Y-%m-%d %H:%M:%S"), "§1.BlockeedQuarryMaster.§r")
 
 target = "amfs987"
-target = "desuarez"
+target = "dogboy331"
 
 
-local spectatorlist = {
+local deliverylist = {
     "amfs987",
     "desuarez",
     "crabbywings_15",
+    "OrbitalObject",
 }
 local msglist = {
     "Botboy",
@@ -26,6 +26,23 @@ local msglist = {
     "Everone ignore this botboy",
 }
 
+function contains(tbl, val)
+    for _, v in ipairs(tbl) do
+        if v == val then
+            return true
+        end
+    end
+    return false
+end
+
+if not contains(deliverylist, target) then
+    table.insert(deliverylist,target)
+end
+
+for i, v in ipairs(deliverylist) do
+    print("Sending message to " .. v)
+    chatBox.sendMessageToPlayer("Mod Aproval board is now online. Please report any botboys to the board.", v, "Mod Aproval board")
+end
 local msgcopy = msglist
 
 local msgcnt = 0 
@@ -48,6 +65,8 @@ while true do
         local msg = msgcopy[i]
         table.remove(msgcopy, i)
         
-        chatBox.sendMessage(msg,"Mod Aproval board")
+        for k, player in ipairs(deliverylist) do
+            chatBox.sendMessageToPlayer(msg,player,"Mod Aproval board")
+        end
     end
 end
