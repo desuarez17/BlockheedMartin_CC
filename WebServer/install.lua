@@ -10,7 +10,7 @@ print("Downloading new files...")
 
 --main programs
 shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/"..sourse.."/WebServer/webServer.lua webServer.lua")
-shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/ma"..sourse.."in/WebServer/startup.lua startup.lua")
+shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/"..sourse.."/WebServer/startup.lua startup.lua")
 
 --pages
 shell.run("wget https://raw.githubusercontent.com/desuarez17/BlockheedMartin_CC/refs/heads/"..sourse.."/WebServer/BlockheedMartinNet.txt BlockheedMartinNet.txt")
