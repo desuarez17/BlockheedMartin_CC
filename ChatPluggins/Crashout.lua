@@ -1,7 +1,8 @@
 local chatBox = peripheral.find("chatBox")
 
 target = "amfs987"
-target = "dogboy331"
+target = "desuarez"
+--target = "dogboy331"
 
 
 local deliverylist = {
