@@ -2,12 +2,12 @@ local chatBox = peripheral.find("chatBox")
 
 target = "amfs987"
 target = "desuarez"
---target = "dogboy331"
+target = "dogboy331"
 
 
 local deliverylist = {
-    "desuarez",
     "amfs987",
+    "desuarez",
     "crabbywings_15",
     "OrbitalObject",
 }
@@ -26,6 +26,10 @@ local msglist = {
     "Go message a real mod",
     "Everone ignore this botboy",
 }
+msg = "robbery"
+-- chatBox.sendMessageToPlayer("robbery", deliverylist[1], "Server")
+-- chatBox.sendMessageToPlayer("robbery", deliverylist[2], "Server")
+-- chatBox.sendMessageToPlayer("robbery", "desuarez", "Server")
 
 function contains(tbl, val)
     for _, v in ipairs(tbl) do
@@ -40,10 +44,19 @@ if not contains(deliverylist, target) then
     table.insert(deliverylist,target)
 end
 
-for i, player in ipairs(deliverylist) do
-    print("Sending message to " .. player)
-    chatBox.sendMessageToPlayer("Mod Aproval board is now online. Please report any botboys to the board.", player, "Mod Aproval board")
-end
+-- for i = 1,#deliverylist do
+--     sleep(0.5) -- slight delay to avoid overwhelming the chat system
+--     print("Sending message to " ..  deliverylist[i])
+--     chatBox.sendMessageToPlayer("Mod Aproval board is now online. Please report any botboys to the board.", deliverylist[i], "Server")
+-- end
+-- msg = "Mod Aproval board is now online. Please report any botboys to the board."
+-- chatBox.sendMessageToPlayer(msg, deliverylist[1], "Server")
+-- chatBox.sendMessageToPlayer(msg, deliverylist[2], "Server")
+-- chatBox.sendMessageToPlayer(msg, deliverylist[3], "Server")
+-- chatBox.sendMessageToPlayer(msg, deliverylist[4], "Server")
+-- chatBox.sendMessageToPlayer(msg, deliverylist[5], "Server")
+chatBox.sendMessage("Mod Aproval board is now online. Please report any botboys to the board.", "Server")
+
 local msgcopy = msglist
 
 local msgcnt = 0 
@@ -66,8 +79,9 @@ while true do
         local msg = msgcopy[i]
         table.remove(msgcopy, i)
         
-        for k, player in ipairs(deliverylist) do
-            chatBox.sendMessageToPlayer(msg,player,"Mod Aproval board")
-        end
-    end
+        chatBox.sendMessage(msg, "Server")
+    --     for k, player in ipairs(deliverylist) do
+    --         chatBox.sendMessageToPlayer(msg,player,"Server")
+    --     end
+    -- end
 end
